@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  color: #f5f5f5;
+}
+
+header {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header h1 span {
+  color: #00ffff;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #00ffff;
+  color: #000;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #00cccc;
+}
+
+section {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+section p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.card {
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+  width: 270px;
+  box-shadow: 0 4px 12px rgba(0, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.kontak {
+  background-color: #00ffff;
+  color: #000;
+}
+
+.kirim-email {
+  background: #000;
+  color: #00ffff;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}

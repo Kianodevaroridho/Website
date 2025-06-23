@@ -1,0 +1,1 @@
+console.log("Halo Kiano! Script berhasil dipanggil.");
